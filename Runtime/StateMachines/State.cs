@@ -6,6 +6,12 @@ namespace DapperDino.DapperTools.StateMachines
     public class State : MonoBehaviour, IState
     {
         [SerializeField] private List<StateTransition> transitions = new List<StateTransition>();
+    
+        public List<StateTransition> Transitions {
+            get {
+                return transitions;
+            }
+        }
 
         public IState ProcessTransitions()
         {

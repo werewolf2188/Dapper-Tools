@@ -10,7 +10,7 @@ To install this project as a [Git dependency](https://docs.unity3d.com/Manual/up
 add the following line to your project's `manifest.json`:
 
 ```
-"com.dapperdino.dappertools": "https://github.com/DapperDino/Dapper-Tools.git"
+"com.dapperdino.dappertools": "https://github.com/werewolf2188/Dapper-Tools.git"
 ```
 
 You will need to have Git installed and available in your system's PATH.

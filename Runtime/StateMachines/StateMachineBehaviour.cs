@@ -5,9 +5,14 @@ namespace DapperDino.DapperTools.StateMachines
     public class StateMachineBehaviour : MonoBehaviour
     {
         [SerializeField] private State startingState = null;
+        public State StartingState {
+            get {
+                return startingState;
+            }
+        }
 
         private StateMachine stateMachine;
-        private StateMachine StateMachine
+        public StateMachine StateMachine
         {
             get
             {
