@@ -11,12 +11,12 @@ namespace DapperDino.DapperTools.StateMachines
     
         public float XCoordinate {
             get { return x; }
-            set { x = newValue; }
+            set { x = value; }
         }
     
         public float YCoordinate {
             get { return y; }
-            set { y = newValue; }
+            set { y = value; }
         }
     
         public List<StateTransition> Transitions {
