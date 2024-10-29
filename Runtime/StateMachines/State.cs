@@ -6,15 +6,15 @@ namespace DapperDino.DapperTools.StateMachines
     public class State : MonoBehaviour, IState
     {
         [SerializeField] private List<StateTransition> transitions = new List<StateTransition>();
-        [SerializeField] [HideInInspector] float x;
-        [SerializeField] [HideInInspector] float y;
+        [SerializeField] [HideInInspector] float? x = null;
+        [SerializeField] [HideInInspector] float? y = null;
     
-        public float XCoordinate {
+        public float? XCoordinate {
             get { return x; }
             set { x = value; }
         }
     
-        public float YCoordinate {
+        public float? YCoordinate {
             get { return y; }
             set { y = value; }
         }
